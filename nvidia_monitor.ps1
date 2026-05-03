@@ -1,4 +1,5 @@
-$logDir = 'D:\resources_psycho\resources_github\repos_publicos\hardware\monitoreo'
+# Set this to the actual directory before running the script.
+$logDir = '<DIRECTORY>'
 if (-not (Test-Path $logDir)) { New-Item -Path $logDir -ItemType Directory -Force | Out-Null }
 
 $now = Get-Date
